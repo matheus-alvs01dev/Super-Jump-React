@@ -1,0 +1,17 @@
+.carImage {
+    width: 300px;
+    position: absolute;
+    bottom: 50px;
+    z-index: 2;
+    animation: car-animation 1s infinite linear;
+}
+
+@keyframes car-animation {
+    from {
+        right: -80px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
