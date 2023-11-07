@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import road from '../../images/road.png'
+import road2 from '../../images/road2.png'
 
 const RoadImg = styled.img`
     position: absolute;
@@ -9,13 +9,11 @@ const RoadImg = styled.img`
     right: -10;
     bottom: 0;
     z-index: 1;
-
-    
 `
 
 function Road() {
     return (
-        <RoadImg src={road} alt='road' />
+        <RoadImg src={road2} alt='road' />
     )
 }
 

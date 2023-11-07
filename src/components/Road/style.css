@@ -1,0 +1,11 @@
+.roadContainer{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0px;
+}
+
+.roadImage{
+    width: 100%;
+}

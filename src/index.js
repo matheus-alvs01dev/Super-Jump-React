@@ -19,7 +19,8 @@ const GlobalStyle = createGlobalStyle`
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
-  `
+ `;
+  
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

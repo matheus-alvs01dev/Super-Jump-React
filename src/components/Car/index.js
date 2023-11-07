@@ -1,8 +1,6 @@
 import car from '../../images/car.gif';
 import './style.css';
 
-
-
 function Car() {
 
 

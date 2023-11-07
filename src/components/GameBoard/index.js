@@ -24,13 +24,14 @@ function GameBoard() {
 
     return (
         <GameBoardContainer>
-            <Road />
+          
             <Car />
             <Loop />
-            <Score />
             <Jump />
             <Dog />
-            <Buildings />     
+            <Buildings />
+            <Road />
+            <Score />     
 
         </GameBoardContainer>
     )
